@@ -1,0 +1,5 @@
+instance_automobile
+=> nrel_main_idtf:
+	[Автомобиль](* <- lang_ru;; *);
+<- concept_ground_vehicle;
+<- concept_vehicle;;

@@ -1,0 +1,5 @@
+instance_ferry
+=> nrel_main_idtf:
+	[Паром](* <- lang_ru;; *);
+<- concept_vehicle;
+<- concept_water_vehicle;;

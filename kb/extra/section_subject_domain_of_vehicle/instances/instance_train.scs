@@ -1,0 +1,5 @@
+instance_train
+=> nrel_main_idtf:
+	   [Поезд](* <- lang_ru;; *);
+<- concept_ground_vehicle;
+<- concept_vehicle;;

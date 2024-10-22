@@ -1,0 +1,6 @@
+instance_airplane
+=> nrel_main_idtf:
+	[Самолет](* <- lang_ru;; *);
+<- concept_vehicle;
+<- concept_air_vehicle;;
+

@@ -1,0 +1,87 @@
+concept_vehicle
+   <- sc_node_class;
+   <- class;
+   => nrel_main_idtf:
+      [Транспортное средство]
+      (* <- lang_ru;; *);
+   <= nrel_decomposition: {
+      concept_ground_vehicle;
+      concept_air_vehicle;
+      concept_water_vehicle
+   };;
+   
+definition->...
+   (*
+      ->rrel_key_sc_element: concept_vehicle;;
+      <=nrel_sc_text_translation:...
+      (*
+      ->[Транспортное средство – это техническое устройство, предназначенное для перемещения людей, грузов или оборудования, установленного на нем.]
+      (* <- lang_ru;; *);;
+      *);;
+      => nrel_main_idtf:
+               [опеределение: Транспортное средство]
+               (* <- lang_ru;; *);;
+   *);;
+      
+
+concept_ground_vehicle
+   <- sc_node_class;
+   <- class;
+   => nrel_main_idtf:
+      [Наземное транспортное средство]
+      (* <- lang_ru;; *);;
+
+   definition->...
+   (*
+      ->rrel_key_sc_element: concept_ground_vehicle;;
+      <=nrel_sc_text_translation:...
+      (*
+      ->[Наземное транспортное средство – это транспортное средство, перемещающееся только или преимущественно по земле.]
+      (* <- lang_ru;; *);;
+      *);;
+      => nrel_main_idtf:
+               [опеределение: Наземное транспортное средство]
+               (* <- lang_ru;; *);;
+   *);;
+
+
+concept_air_vehicle
+   <- sc_node_class;
+   <- class;
+   => nrel_main_idtf:
+      [Воздушное транспортное средство]
+      (* <- lang_ru;; *);;
+
+   definition->...
+   (*
+      ->rrel_key_sc_element: concept_air_vehicle;;
+      <=nrel_sc_text_translation:...
+      (*
+      ->[Воздушное транспортное средство – это транспортное средство, перемещающееся только или преимущественно по воздушными путями.]
+      (* <- lang_ru;; *);;
+      *);;
+      => nrel_main_idtf:
+               [опеределение: Воздушное транспортное средство]
+               (* <- lang_ru;; *);;
+   *);;
+
+
+concept_water_vehicle
+   <- sc_node_class;
+   <- class;
+   => nrel_main_idtf:
+      [Водное транспортное средство]
+      (* <- lang_ru;; *);;
+
+   definition->...
+   (*
+      ->rrel_key_sc_element: concept_water_vehicle;;
+      <=nrel_sc_text_translation:...
+      (*
+      ->[Водное транспортное средство – это транспортное средство, осуществляющие перевозки по воде – рекам, океанам, каналам, морям, водохранилищам и озерам.]
+      (* <- lang_ru;; *);;
+      *);;
+      => nrel_main_idtf:
+               [опеределение: Водное транспортное средство]
+               (* <- lang_ru;; *);;
+   *);;

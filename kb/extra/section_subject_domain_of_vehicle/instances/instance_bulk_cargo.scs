@@ -1,0 +1,4 @@
+instance_bulk_cargo
+=> nrel_main_idtf:
+	[Насыпной груз](* <- lang_ru;; *);
+<- concept_cargo;;

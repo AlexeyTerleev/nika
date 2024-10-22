@@ -1,0 +1,19 @@
+concept_driver
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [Водитель]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_driver;;
+   <=nrel_sc_text_translation:...
+   (*
+    -> [Водитель — человек, управляющий транспортным средством.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [опеределение: Водитель]
+            (* <- lang_ru;; *);;
+  *);;

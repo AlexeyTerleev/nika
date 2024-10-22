@@ -1,0 +1,29 @@
+nrel_going_along_the_route
+    <- sc_node_norole_relation;
+    <- relation;
+    <- binary_relation;
+    <- oriented_relation;
+    <- antireflexive_relation;
+    <- asymmetric_relation;
+    <- antitransitive_relation;
+    => nrel_main_idtf:
+        [следует по маршруту*](* <- lang_ru;; *);
+    => nrel_first_domain: 
+        concept_vehicle;
+    => nrel_second_domain: 
+        concept_route;;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: nrel_going_along_the_route;;
+   <=nrel_sc_text_translation:...
+   (*
+    -> [следует по маршруту* — это отношение между транспортным средством и заранее определенным путем (маршрутом), по которому осуществляется движение. Оно описывает процесс следования транспортного средства или перемещения пассажира по заданному направлению в пределах установленного маршрута.](* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+        [Опр. (следует по маршруту*)] (* <- lang_ru;; *);;
+    <= nrel_using_constants: {
+   	 	 concept_vehicle;
+   	 	 concept_route
+   	 };;
+  *);;

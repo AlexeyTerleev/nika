@@ -1,0 +1,29 @@
+nrel_provides_a_service
+    <- sc_node_norole_relation;
+    <- relation;
+    <- binary_relation;
+    <- oriented_relation;
+    <- antireflexive_relation;
+    <- asymmetric_relation;
+    <- antitransitive_relation;
+    => nrel_main_idtf:
+        [предоставляет услугу*](* <- lang_ru;; *);
+    => nrel_first_domain: 
+        concept_carrier_company;
+    => nrel_second_domain: 
+        concept_carriage;;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: nrel_provides_a_service;;
+   <=nrel_sc_text_translation:...
+   (*
+    -> [предоставляет услугу* —  это отношение между компанией и процессом, в рамках которого она обеспечивает перемещение пассажиров или грузов.](* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+        [Опр. (предоставляет услугу*)] (* <- lang_ru;; *);;
+    <= nrel_using_constants: {
+   	 	 concept_carriage;
+   	 	 concept_carrier_company
+   	 };;
+  *);;

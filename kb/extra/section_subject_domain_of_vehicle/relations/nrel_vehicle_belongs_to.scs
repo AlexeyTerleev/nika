@@ -1,0 +1,29 @@
+nrel_vehicle_belongs_to
+    <- sc_node_norole_relation;
+    <- relation;
+    <- binary_relation;
+    <- oriented_relation;
+    <- antireflexive_relation;
+    <- asymmetric_relation;
+    <- antitransitive_relation;
+    => nrel_main_idtf:
+        [пренадлежит*](* <- lang_ru;; *);
+    => nrel_first_domain: 
+        concept_vehicle;
+    => nrel_second_domain: 
+        concept_carrier_company;;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: nrel_vehicle_belongs_to;;
+   <=nrel_sc_text_translation:...
+   (*
+    -> [пренадлежит* — это отношение между транспортным средством и компанией-перевозчиком, котрому оно пренадлежит.](* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+        [Опр. (пренадлежит*)] (* <- lang_ru;; *);;
+    <= nrel_using_constants: {
+   	 	 concept_vehicle;
+   	 	 concept_carrier_company
+   	 };;
+  *);;

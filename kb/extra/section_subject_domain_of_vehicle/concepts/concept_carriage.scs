@@ -1,0 +1,19 @@
+concept_carriage
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [Перевозка]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_carriage;;
+   <=nrel_sc_text_translation:...
+   (*
+    -> [Перевозка — процесс перемещения пассажиров или груза с использованием транспортных средств по заданному маршруту.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [опеределение: Перевозка]
+            (* <- lang_ru;; *);;
+  *);;

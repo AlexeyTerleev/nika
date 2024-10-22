@@ -1,0 +1,5 @@
+instance_tanker
+=> nrel_main_idtf:
+	[Танкер](* <- lang_ru;; *);
+<- concept_vehicle;
+<- concept_water_vehicle;;

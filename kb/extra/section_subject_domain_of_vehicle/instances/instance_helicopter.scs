@@ -1,0 +1,5 @@
+instance_helicopter
+=> nrel_main_idtf:
+	[Вертолет](* <- lang_ru;; *);
+<- concept_vehicle;
+<- concept_air_vehicle;;

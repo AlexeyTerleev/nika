@@ -1,0 +1,19 @@
+concept_carrier_company
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [Компания-перевозчик]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_carrier_company;;
+   <=nrel_sc_text_translation:...
+   (*
+    -> [Компания-перевозчик — организация, предоставляющая услуги по транспортировке грузов и пассажиров.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [опеределение: Компания-перевозчик]
+            (* <- lang_ru;; *);;
+  *);;

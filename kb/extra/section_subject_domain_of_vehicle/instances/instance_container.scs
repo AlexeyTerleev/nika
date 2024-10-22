@@ -1,0 +1,4 @@
+instance_container
+=> nrel_main_idtf:
+	[Контейнер](* <- lang_ru;; *);
+<- concept_cargo;;

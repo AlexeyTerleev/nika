@@ -1,0 +1,4 @@
+instance_liquid_cargo
+=> nrel_main_idtf:
+	[Жидкий груз](* <- lang_ru;; *);
+<- concept_cargo;;

@@ -1,0 +1,19 @@
+concept_ticket
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [Билет]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_ticket;;
+   <=nrel_sc_text_translation:...
+   (*
+    -> [Билет — документ, дающий право на проезд или перевозку груза.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [опеределение: Билет]
+            (* <- lang_ru;; *);;
+  *);;

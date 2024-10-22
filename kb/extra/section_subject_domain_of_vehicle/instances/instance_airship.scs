@@ -1,0 +1,5 @@
+instance_airship
+=> nrel_main_idtf:
+	[Дирижабль](* <- lang_ru;; *);
+<- concept_vehicle;
+<- concept_air_vehicle;;

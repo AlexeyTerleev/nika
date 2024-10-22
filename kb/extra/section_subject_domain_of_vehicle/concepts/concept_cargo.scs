@@ -1,0 +1,21 @@
+concept_cargo
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [Груз]
+   (* <- lang_ru;; *);;
+
+definition->...
+  (*
+   ->rrel_key_sc_element: concept_cargo;;
+   <=nrel_sc_text_translation:...
+   (*
+    ->[Груз — перемещаемый кем-либо или чем-либо в пространстве материальный объект.]
+   (* <- lang_ru;; *);;
+   *);;
+    => nrel_main_idtf:
+            [опеределение: Груз]
+            (* <- lang_ru;; *);;
+  *);;
+
+

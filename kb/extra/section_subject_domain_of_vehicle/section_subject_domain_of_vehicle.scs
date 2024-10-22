@@ -1,0 +1,38 @@
+section_subject_domain_of_vehicle
+    => nrel_main_idtf:
+    [Раздел. Предметная область Транспорт](* <- lang_ru;; *);
+    => nrel_main_idtf:
+    [Section. Subject domain of Vehicle](* <- lang_en;; *);
+    <- atomic_section;;
+
+section_subject_domain_of_vehicle = [*
+    subject_domain_of_vehicle
+    <- sc_node_struct;
+    => nrel_main_idtf:
+        [Предметная область Транспорт](* <- lang_ru;; *);
+    => nrel_main_idtf:
+        [Subject domain of Vehicle](* <- lang_en;; *);
+    <- subject_domain;
+    -> rrel_maximum_studied_object_class:
+      concept_cargo;
+      concept_carriage;
+      concept_carrier_company;
+      concept_vehicle;
+      concept_driver;
+      concept_passenger;
+      concept_route;
+      concept_ticket;
+      concept_vehicle;
+    -> rrel_not_maximum_studied_object_class:
+      concept_ground_vehicle;
+      concept_air_vehicle;
+      concept_water_vehicle;
+    -> rrel_explored_relation:
+      nrel_drive;
+      nrel_going_along_the_route;
+      nrel_implemented_through_a_ticket;
+      nrel_loaded;
+      nrel_provides_a_service;
+      nrel_transport;
+      nrel_vehicle_belongs_to;;
+*];;
